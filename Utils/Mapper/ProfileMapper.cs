@@ -26,7 +26,7 @@ namespace Login.Utils.Mapper
             CreateMap<IdentityRole, RoleDataResponse>()
                 .ForMember(dest => dest.Role, opt => opt.MapFrom(src => src.Name));
 
-           
+         
         }
     }
 }
